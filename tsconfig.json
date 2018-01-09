@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "jsx": "react",
+    "noImplicitAny": true,
+    "lib": ["es2015"],
+    "sourceMap": true,
+    "declaration": true
+  }
+}

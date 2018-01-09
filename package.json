@@ -1,0 +1,23 @@
+{
+  "name": "jsxpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/example/express.example",
+    "compile": "tsc",
+    "test": "mocha test/**/* --require ts-node/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/express": "^4.11.0",
+    "@types/mocha": "^2.2.45",
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.1.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
