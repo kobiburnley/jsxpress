@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "files": ["index.js", "lib"],
   "scripts": {
     "start": "tsc && node build/example/express.example",
     "compile": "tsc",
+    "build": "tsc -p tsconfig.production.json",
     "test": "mocha test/**/* --require ts-node/register"
   },
   "author": "",
