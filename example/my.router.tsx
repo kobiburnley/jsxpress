@@ -9,10 +9,8 @@ export class MyRouter {
   }
 
   render() {
-    return <middle path="/api">
-      <middle onHandle={this.auth}>
-        <Hello />
-      </middle>
+    return <middle path="/api" onHandle={this.auth}>
+      <Hello />
     </middle>
   }
 }
